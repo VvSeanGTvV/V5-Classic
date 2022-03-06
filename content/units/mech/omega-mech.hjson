@@ -1,0 +1,52 @@
+name: Omega
+description: An old V5 Mech.
+type: mech
+speed: 0.36
+boostSpeed: 0.6
+drag: 0.1
+health: 350
+range: 80
+hitSize: 8
+rotateSpeed: 10
+shake: 4
+mineSpeed: 1.5
+mineTier: 2
+buildSpeed: 1.5
+itemCapacity: 80
+weapons: [
+    {
+        name: swarmer-equip
+        reload: 38
+        shootX: 6
+        x: -1
+        y: 0
+        top: false
+        recoil: 4
+        shots: 4
+        shotDelay: 0
+        mirror: true
+        ejectEffect: casing2
+        shootSound: shootBig
+        inaccuracy: 8
+        bullet: {
+            type: MissileBulletType
+            collideTerrain: false
+            backColor: f7ad90
+            frontColor: fffffd
+            mixColorFrom: fffffd
+            mixColorTo: f7ad90
+            damage: 12
+            splashDamage: 10
+            splashDamageRadius: 25
+            speed: 2.7
+            width: 8
+            height: 8
+            lifetime: 120
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            homingRange: 60
+            weaveScale: 8
+            weaveMag: 2
+        }
+    }
+]

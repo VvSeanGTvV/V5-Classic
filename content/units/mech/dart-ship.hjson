@@ -1,0 +1,63 @@
+name: Dart
+description: An old V5 starter Dart.
+type: flying
+mineTier: 1
+speed: 5
+health: 240
+armor: 0
+accel: 0.1
+drag: 0.09
+lowAltitude: true
+flying: true
+engineOffset: 5
+rotateShooting: true
+hitSize: 7
+engineSize: 2
+itemCapacity: 60
+payloadCapacity: 1000
+mineSpeed: 3
+buildSpeed: 1.1
+destructibleWreck: false
+
+weapons: [
+    {
+        name: blaster-equip
+        rotateSpeed: 30
+        rotate: false
+        mirror: true
+        top: false
+        shake: 1
+        shootX: -4
+        x: 1
+        y: 0
+
+        firstShotDelay: 0
+
+        reload: 15
+        recoil: 1
+        shootSound: shootSnap
+        continuous: false
+        cooldownTime: 200
+        ejectEffect: casing1
+
+        bullet: {
+            type: BasicBulletType
+            backColor: ea8878
+            frontColor: feb380
+            mixColorFrom: feb380
+            mixColorTo: ea8878
+            damage: 9
+            speed: 2.5
+            width: 9
+            height: 12
+            lifetime: 60
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+        }
+
+        shootStatus: slow
+        shootStatusDuration: 180
+    }
+]
+
+research: copper-wall

@@ -1,0 +1,68 @@
+name: Trident
+description: An old V5 Trident, drops cluster of bombs below!
+type: flying
+mineTier: 2
+speed: 1.5
+health: 250
+armor: 0
+accel: 0.1
+drag: 0.034
+lowAltitude: true
+flying: true
+engineOffset: 5
+rotateShooting: true
+hitSize: 7
+engineSize: 2
+itemCapacity: 30
+engineColor: 84f491
+payloadCapacity: 1000
+mineSpeed: 1
+buildSpeed: 2.5
+destructibleWreck: false
+
+weapons: [
+    {
+        name: bomber
+        rotateSpeed: 30
+        rotate: false
+        mirror: false
+        top: false
+        shake: 1
+        shootY: 0
+        x: 3
+        y: 0
+
+        firstShotDelay: 0
+
+        reload: 25
+        recoil: 0
+        shots: 2
+        shotDelay: 1
+        shots: 8
+        inaccuracy: 20
+        shootSound: artillery
+        continuous: false
+        cooldownTime: 200
+        ejectEffect: casing1
+
+        bullet: {
+      type: BombBulletType
+      splashDamageRadius: 25
+      damage: 16
+      width: 10
+      height: 14
+      hitEffect: flakExplosion
+      shootEffect: none
+      smokeEffect: none
+      frontColor: f8ad42
+      backColor: f68021
+      incendAmount: 2
+      incendSpread: 3
+    }
+
+        shootStatus: slow
+        shootStatusDuration: 180
+    }
+]
+
+research: copper-wall

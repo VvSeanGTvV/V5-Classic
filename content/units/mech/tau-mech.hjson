@@ -1,0 +1,37 @@
+name: Tau
+description: An old V5 Tau Mech, heals others or builds?
+type: mech
+speed: 0.44
+drag: 0.35
+health: 150
+range: 80
+hitSize: 8
+rotateSpeed: 10
+mineSpeed: 3
+mineTier: 4
+buildSpeed: 1.6
+itemCapacity: 40
+weapons: [
+    {
+        name: heal-blaster-equip
+        reload: 55
+        shootX: -4
+        x: -1
+        y: 0
+        top: false
+        recoil: 1
+        shotDelay: 3
+        shots: 2
+        mirror: true
+        ejectEffect: casing1
+        shootSound: pew
+        inaccuracy: 0
+        bullet: {
+            type: BasicBulletType
+            collidesTeam: True
+            speed: 5.2
+            healPercent: 3
+            damage: 16
+        }
+    }
+]

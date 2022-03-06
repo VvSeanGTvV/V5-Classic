@@ -1,0 +1,38 @@
+name: Delta
+description: An old V5 Delta Mech.
+type: mech
+speed: 0.75
+drag: 0.1
+health: 150
+range: 80
+hitSize: 8
+rotateSpeed: 10
+mineSpeed: 1.5
+mineTier: 1
+buildSpeed: 1.2
+itemCapacity: 40
+weapons: [
+    {
+        name: shockgun-equip
+        reload: 55
+        shootX: -4
+        x: 1
+        y: 0
+        top: false
+        recoil: 1
+        shotDelay: 3
+        shots: 2
+        mirror: true
+        ejectEffect: casing1
+        shootSound: spark
+        inaccuracy: 0
+        bullet: {
+            type: LightningBulletType
+            speed: 0.001
+            lifetime: 1
+            damage: 12
+            range: 40
+            lightningLength: 10
+        }
+    }
+]

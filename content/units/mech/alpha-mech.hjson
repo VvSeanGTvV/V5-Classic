@@ -1,0 +1,40 @@
+name: Alpha
+description: An old V5 Alpha Mech.
+type: mech
+speed: 0.5
+drag: 0.1
+health: 250
+range: 80
+hitSize: 8
+rotateSpeed: 10
+shake: 4
+mineSpeed: 1.5
+mineTier: 1
+buildSpeed: 1.2
+itemCapacity: 40
+weapons: [
+    {
+        name: blaster-equip
+        reload: 14
+        shootX: -4
+        x: 1
+        y: 0
+        top: false
+        recoil: 1
+        shotDelay: 0
+        mirror: true
+        ejectEffect: casing1
+        shootSound: shootBig
+        inaccuracy: 5
+        bullet: {
+            type: BasicBulletType
+            damage: 9
+            speed: 4
+            width: 11
+            height: 14
+            lifetime: 40
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+        }
+    }
+]

@@ -1,0 +1,71 @@
+name: Javelin
+description: An old V5 Javelin.
+type: flying
+mineTier: 1
+speed: 1.1
+health: 170
+armor: 0
+accel: 0.1
+drag: 0.01
+lowAltitude: true
+flying: true
+engineOffset: 5
+rotateShooting: true
+hitSize: 7
+engineSize: 2
+itemCapacity: 60
+payloadCapacity: 1000
+mineSpeed: 1
+buildSpeed: 1
+destructibleWreck: false
+engineColor: d3ddff
+
+weapons: [
+    {
+        name: missile
+        rotateSpeed: 30
+        rotate: false
+        mirror: false
+        top: false
+        shake: 1
+        shootX: 0
+        x: 0
+        y: 0
+
+        firstShotDelay: 0
+
+        reload: 70
+        recoil: 0
+        shots: 4
+        shootSound: missile
+        continuous: false
+        cooldownTime: 200
+        ejectEffect: casing1
+        inaccuracy: 2
+
+        bullet: {
+            type: MissileBulletType
+            collideTerrain: false
+            backColor: f7ad90
+            frontColor: fffffd
+            mixColorFrom: fffffd
+            mixColorTo: f7ad90
+            damage: 10
+            splashDamage: 1
+            splashDamageRadius: 20
+            speed: 5
+            width: 8
+            height: 8
+            lifetime: 90
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            weaveScale: 8
+            weaveMag: 2
+        }
+
+        shootStatus: slow
+        shootStatusDuration: 180
+    }
+]
+
+research: copper-wall
