@@ -1,0 +1,15 @@
+type: MessageBlock
+name: Message V5
+
+size: 1
+health: 20
+
+requirements: [
+    graphite/5
+]
+
+maxTextLength: 500
+maxNewlines: 50
+
+category: logic
+research: message
