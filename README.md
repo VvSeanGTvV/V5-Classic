@@ -1,5 +1,4 @@
 ![Logo](sprites-override/logo.png)
-# V5-Classic
 Description:
 
 Adds v5 units into the recent version of Mindustry: v126! 
