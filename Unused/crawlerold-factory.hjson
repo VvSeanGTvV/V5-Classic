@@ -1,0 +1,26 @@
+type: UnitFactory
+name: Crawler Factory V5
+description: Old factory to use v5 units!
+
+health: 500
+size: 2
+
+requirements: [
+    copper/1
+]
+
+plans: [
+    {
+        unit: crawlerold
+        requirements: [
+            lead/45
+            silicon/30
+        ]
+        time: 300
+    }
+]
+consumes: {
+    power: 0.5
+}
+category: units
+research: core-shard
