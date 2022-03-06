@@ -1,0 +1,29 @@
+type: UnitFactory
+name: Titan Factory
+health: 570
+size: 3
+itemCapacity: 30
+
+requirements: [
+            silicon/45
+            lead/50
+            graphite/50
+        ]
+
+plans: [
+    {
+        unit: titan
+        requirements: [
+            silicon/12
+        ]
+        time: 1050
+    }
+]
+
+category: units
+
+consumes: {
+    power: 0.6
+}
+
+research: command-center

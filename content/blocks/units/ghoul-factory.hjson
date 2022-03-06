@@ -1,0 +1,30 @@
+type: UnitFactory
+name: Ghoul Factory
+health: 700
+size: 3
+itemCapacity: 30
+
+requirements: [
+            silicon/110
+            lead/65
+            titanium/75
+        ]
+
+plans: [
+    {
+        unit: ghoul
+        requirements: [
+            silicon/15
+            titanium/10
+        ]
+        time: 1150
+    }
+]
+
+category: units
+
+consumes: {
+    power: 3
+}
+
+research: command-center

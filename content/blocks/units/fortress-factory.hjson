@@ -1,0 +1,30 @@
+type: UnitFactory
+name: Fortress Factory
+health: 570
+size: 3
+itemCapacity: 30
+
+requirements: [
+            silicon/75
+            lead/110
+            thorium/40
+        ]
+
+plans: [
+    {
+        unit: fortressold
+        requirements: [
+            silicon/20
+            graphite/10
+        ]
+        time: 2000
+    }
+]
+
+category: units
+
+consumes: {
+    power: 1.4
+}
+
+research: command-center

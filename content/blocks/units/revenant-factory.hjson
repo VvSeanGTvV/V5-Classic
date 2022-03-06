@@ -1,0 +1,31 @@
+type: UnitFactory
+name: Revenant Factory
+health: 800
+size: 4
+itemCapacity: 30
+
+requirements: [
+            silicon/200
+            lead/150
+            titanium/150
+            plastanium/50
+        ]
+
+plans: [
+    {
+        unit: Revenant
+        requirements: [
+            silicon/40
+            titanium/30
+        ]
+        time: 2000
+    }
+]
+
+category: units
+
+consumes: {
+    power: 3
+}
+
+research: command-center
