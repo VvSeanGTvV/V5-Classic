@@ -1,0 +1,67 @@
+name: Draug
+Description: Old miner from v5, replaced with mono.
+type: flying
+mineTier: 1
+speed: 1.2
+health: 50
+armor: 0
+accel: 0.3
+drag: 0.01
+lowAltitude: true
+flying: true
+engineOffset: 5.7
+targetAir: false
+targetGround: false
+rotateShooting: true
+hitSize: 9
+engineSize: 1.8
+buildSpeed: 0
+mineSpeed: 5
+payloadCapacity: 1000
+destructibleWreck: false
+range: 1
+itemCapacity: 30
+controller: MinerAI
+
+weapons: [
+    {
+        name: he-is-a-bomber
+        rotateSpeed: 12
+        rotate: false
+        mirror: false
+        top: false
+        shake: 1
+        shootY: 0
+        x: 3
+        y: 0
+
+        firstShotDelay: 0
+
+        reload: 25
+        recoil: 0
+        shots: 2
+        shotDelay: 1
+        shots: 8
+        inaccuracy: 40
+        shootSound: none
+        continuous: false
+        cooldownTime: 200
+        ejectEffect: casing1
+
+        bullet: {
+      type: BombBulletType
+      speed: 0
+      damage: 20
+      width: 9
+      height: 13
+      hitEffect: flakExplosion
+      incendAmount: 2
+      incendSpread: 3
+    }
+
+        shootStatus: slow
+        shootStatusDuration: 180
+    }
+]
+
+research: copper-wall
