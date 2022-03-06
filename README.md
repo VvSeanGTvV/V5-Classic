@@ -1,7 +1,7 @@
 ![Logo](sprites-override/logo.png)
 ---
 
-Adds v5 units into the recent version of Mindustry: v126! 
+Adds v5 units/blocks into the recent version of Mindustry: v126! 
 BTW, this mod was made through my Android Mobile,
 I recommended the pre-alpha since the sounds are not avaliable in v126 so some of them are muted.
 This mod is using the v104.6 (v5) version of the Mindustry to able to make this mod,
@@ -27,6 +27,8 @@ Anyways bye!
 
 This mod is currently in the beta stage!
 So it might have bugs during the gameplay!
+
+MechPad aren't avaliable yet! I need someone to make a working mechpad in v6!
 
 ---
 Check out the links:
