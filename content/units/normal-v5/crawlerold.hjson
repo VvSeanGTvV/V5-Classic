@@ -1,0 +1,33 @@
+name: Crawler V5
+description: An old V5 Crawler, explodes on nearby buildings.
+type: mech
+speed: 1.27
+drag: 0.4
+health: 120
+range: 10
+hitSize: 8
+rotateSpeed: 1
+weapons: [
+    {
+        name: timer-bomb
+        reload: 12
+        x: 0
+        y: 0
+        top: false
+        shake: 1
+        recoil: 0
+        mirror: false
+        ejectEffect: none
+        shootSound: explosion
+        bullet: {
+            type: BombBulletType
+      splashDamageRadius: 50
+      splashDamage: 30
+      damage: 3
+      hitEffect: pulverize
+      lifetime: 30
+      killShooter: true
+      instantDisappear: true
+        }
+    }
+]

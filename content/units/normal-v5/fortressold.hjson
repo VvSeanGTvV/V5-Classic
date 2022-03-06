@@ -1,0 +1,40 @@
+name: Fortress V5
+description: An old V5 Fortress redesign stats in v6.
+type: mech
+speed: 0.78
+drag: 0.4
+health: 750
+range: 80
+hitSize: 10
+rotateSpeed: 0.6
+immunities: [
+      burning,
+      melting
+]
+weapons: [
+    {
+        name: artillery-equip
+        reload: 60
+        x: 7
+        y: 0
+        top: false
+        shake: 2
+        recoil: 4
+        mirror: true
+        ejectEffect: casing2
+        shootSound: artillery
+        inaccuracy: 0
+        bullet: {
+            type: ArtilleryBulletType
+            speed: 2
+            damage: 0
+            lifetime: 90
+            width: 14
+            height: 14
+            collidesTiles: true
+            collides: true
+            splashDamageRadius: 20
+            splashDamage: 38
+        }
+    }
+]

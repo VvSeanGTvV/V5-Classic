@@ -1,0 +1,35 @@
+name: Chaos Array
+description: An old V5 Chaos Array replace with Scepter.
+type: mech
+speed: 0.68
+drag: 0.4
+health: 3000
+range: 80
+hitSize: 20
+rotateSpeed: 0.6
+weapons: [
+    {
+        name: chaos-equip
+        reload: 50
+        x: 17
+        y: 0
+        top: false
+        shake: 2
+        recoil: 3
+        shots: 4
+        shotDelay: 5
+        mirror: true
+        ejectEffect: casing2
+        shootSound: shootBig
+        inaccuracy: 3
+        bullet: {
+            type: FlakBulletType
+            splashDamage: 33
+            lightning: 2
+            lightningLength: 12
+            shootEffect: shootBig
+            speed: 4
+            damage: 7
+        }
+    }
+]

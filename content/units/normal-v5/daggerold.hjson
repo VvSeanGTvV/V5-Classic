@@ -1,0 +1,35 @@
+name: Dagger V5
+description: An old V5 Dagger, yeah it survived from the start to here. Noice.
+type: mech
+speed: 1.1
+drag: 0.2
+health: 130
+range: 10
+hitSize: 8
+rotateSpeed: 1
+weapons: [
+    {
+        name: chain-blaster-equip
+        reload: 28
+        x: 4
+        y: 0
+        top: false
+        shake: 1
+        recoil: 1
+        mirror: true
+        ejectEffect: casing1
+        shootSound: shootSmall
+        inaccuracy: 0
+        shootX: 2
+        bullet: {
+            type: BasicBulletType
+            damage: 9
+            speed: 2.5
+            width: 9
+            height: 12
+            lifetime: 60
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+        }
+    }
+]

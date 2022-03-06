@@ -1,0 +1,69 @@
+name: Lich
+description: An old V5 2nd Powerful Lich replaced by Antumbra.
+type: flying
+mineTier: 0
+speed: 0.6
+health: 6000
+armor: 0
+accel: 0.01
+drag: 0.02
+lowAltitude: true
+flying: true
+engineOffset: 21
+rotateShooting: true
+hitSize: 40
+engineSize: 5.3
+payloadCapacity: 1000
+buildSpeed: 0
+destructibleWreck: false
+
+weapons: [
+    {
+        name: missile-gun
+        rotateSpeed: 0.01
+        rotate: true
+        mirror: true
+        top: false
+        shake: 2
+        shootY: 0
+        x: 10
+        y: 0
+
+        firstShotDelay: 0
+
+        reload: 160
+        recoil: 5
+        shootSound: artillery
+        continuous: false
+        cooldownTime: 200
+        shots: 16
+        shotDelay: 2
+        inaccuracy: 10
+
+        bullet: {
+            type: MissileBulletType
+            collideTerrain: false
+            backColor: f7ad90
+            frontColor: fffffd
+            mixColorFrom: fffffd
+            mixColorTo: f7ad90
+            damage: 0
+            splashDamage: 10
+            splashDamageRadius: 25
+            speed: 4
+            width: 8
+            height: 8
+            lifetime: 60
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            homingRange: 60
+            weaveScale: 6
+            weaveMag: 1
+        }
+
+        shootStatus: slow
+        shootStatusDuration: 180
+    }
+]
+
+research: copper-wall

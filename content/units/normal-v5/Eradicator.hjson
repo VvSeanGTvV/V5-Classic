@@ -1,0 +1,40 @@
+name: Eradicator
+description: An old V5 Boss of Eradicator replace with Reign.
+type: mech
+speed: 0.68
+drag: 0.4
+health: 9000
+range: 80
+hitSize: 20
+rotateSpeed: 0.6
+weapons: [
+    {
+        name: heavy-gun
+        reload: 30
+        x: 20
+        y: 0
+        top: false
+        shake: 2
+        recoil: 3
+        shots: 4
+        shotDelay: 3
+        mirror: true
+        ejectEffect: casing2
+        shootSound: shootBig
+        inaccuracy: 3
+        bullet: {
+            type: BasicBulletType
+            backColor: ffd380
+            frontColor: ffffff
+            mixColorFrom: ffffff
+            mixColorTo: ffd380
+            damage: 80
+            speed: 7
+            width: 15
+            height: 17
+            lifetime: 37
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+        }
+    }
+]

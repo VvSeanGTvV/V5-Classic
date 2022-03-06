@@ -1,0 +1,43 @@
+name: Titan
+description: An old V5 Titan. very short ranged and does flame damage!
+type: mech
+speed: 0.8
+drag: 0.4
+health: 460
+range: 10
+hitSize: 9
+rotateSpeed: 1
+weapons: [
+    {
+        name: flamethrower-equip
+        reload: 15
+        x: 5
+        y: 0
+        top: false
+        shake: 1
+        recoil: 1
+        mirror: true
+        ejectEffect: none
+        shootSound: flame
+        inaccuracy: 3
+        shootX: 2
+        bullet: {
+            type: FireBulletType
+            backColor: ffd380
+            frontColor: ffffff
+            mixColorFrom: ffffff
+            mixColorTo: ffd380
+            damage: 6
+            speed: 3
+            lifetime: 42
+            width: 0.1
+            height: 0.1
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            despawnEffect: 0
+            status: burning
+            shootEffect: shootSmallFlame
+            range: 50
+        }
+    }
+]

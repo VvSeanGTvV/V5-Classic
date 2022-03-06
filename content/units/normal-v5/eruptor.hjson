@@ -1,0 +1,34 @@
+name: Eruptor
+description: An old V5 Eruptor replace with Atrax.
+type: mech
+speed: 0.81
+drag: 0.4
+health: 600
+range: 80
+hitSize: 9
+rotateSpeed: 0.5
+immunities: [
+      burning,
+      melting
+]
+weapons: [
+    {
+        name: eruption-equip
+        reload: 10
+        x: 7
+        y: 0
+        top: false
+        shake: 1
+        recoil: 1
+        mirror: true
+        ejectEffect: none
+        shootSound: flame
+        inaccuracy: 3
+        bullet: {
+            type: LiquidBulletType
+            damage: 2
+            speed: 2.1
+            liquid: slag
+        }
+    }
+]
