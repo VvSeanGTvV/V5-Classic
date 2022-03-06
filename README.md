@@ -1,5 +1,5 @@
 ![Logo](sprites-override/logo.png)
-Description:
+---
 
 Adds v5 units into the recent version of Mindustry: v126! 
 BTW, this mod was made through my Android Mobile,
@@ -24,6 +24,9 @@ VvSeanGtvV#2295 - Full on revamp Coding to fit in v126 Mindustry
 
 All of the units/blocks doesnt have the abilities yet like: Javelin-Shield and Omega's Damage Resistance!
 Anyways bye!
+
+This mod is currently in the beta stage!
+So it might have bugs during the gameplay!
 
 ---
 Check out the links:
