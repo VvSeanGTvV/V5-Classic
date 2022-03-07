@@ -22,8 +22,7 @@ VvSeanGtvV#2295 - Full on revamp Coding to fit in v126 Mindustry
 ---
 ⚠️ WARNING Before using the mod! ⚠️
 
-All of the units/blocks doesnt have the abilities yet like: Javelin-Shield and Omega's Damage Resistance!
-Anyways bye!
+BuilderAI like Phantom doesnt work properly for no reason :I
 
 This mod is currently in the beta stage!
 So it might have bugs during the gameplay!
