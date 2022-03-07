@@ -1,11 +1,11 @@
-name: Draug
-Description: Old miner from v5, replaced with mono.
+name: Spirit
+Description: Old Healer from v5.
 type: flying
-mineTier: 1
-speed: 1.2
-health: 50
+mineTier: 0
+speed: 1.6
+health: 100
 armor: 0
-accel: 0.3
+accel: 0.42
 drag: 0.01
 lowAltitude: true
 flying: true
@@ -13,51 +13,45 @@ engineOffset: 5.7
 targetAir: false
 targetGround: false
 rotateShooting: true
-hitSize: 0
+hitSize: 8
 engineSize: 1.8
 buildSpeed: 0
 mineSpeed: 5
 payloadCapacity: 1000
 destructibleWreck: false
-range: 1
 itemCapacity: 30
-controller: MinerAI
+controller: RepairAI
+range: 50
 
 weapons: [
     {
-        name: he-is-a-bomber
+        name: your-healer-drone-basically
         rotateSpeed: 12
         rotate: false
-        mirror: false
+        mirror: true
         top: false
         shake: 1
         shootY: 0
-        x: 3
+        x: 0
         y: 0
 
         firstShotDelay: 0
 
-        reload: 25
+        reload: 40
         recoil: 0
-        shots: 2
-        shotDelay: 1
-        shots: 8
-        inaccuracy: 40
-        shootSound: none
+        inaccuracy: 0
+        shootSound: pew
         continuous: false
         cooldownTime: 200
-        ejectEffect: casing1
+        ejectEffect: none
 
         bullet: {
-      type: BombBulletType
-      speed: 0
-      damage: 20
-      width: 9
-      height: 13
-      hitEffect: flakExplosion
-      incendAmount: 2
-      incendSpread: 3
-    }
+            type: BasicBulletType
+            speed: 5.2
+            healPercent: 5.5
+            damage: 0
+            collidesTeam: True
+        }
 
         shootStatus: slow
         shootStatusDuration: 180
