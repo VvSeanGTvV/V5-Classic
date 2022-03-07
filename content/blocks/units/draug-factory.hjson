@@ -1,0 +1,28 @@
+type: UnitFactory
+name: Draug Factory
+health: 500
+size: 2
+itemCapacity: 30
+
+requirements: [
+            copper/30
+            lead/70
+        ]
+
+plans: [
+    {
+        unit: draug
+        requirements: [
+            
+        ]
+        time: 250
+    }
+]
+
+category: units
+
+consumes: {
+    power: 1.2
+}
+
+research: command-center

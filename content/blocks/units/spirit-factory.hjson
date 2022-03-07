@@ -1,0 +1,30 @@
+type: UnitFactory
+name: Spirit Factory
+health: 500
+size: 2
+itemCapacity: 30
+
+requirements: [
+            copper/30
+            lead/70
+            metaglass/45
+        ]
+
+plans: [
+    {
+        unit: spirit
+        requirements: [
+            silicon/30
+            lead/30
+        ]
+        time: 400
+    }
+]
+
+category: units
+
+consumes: {
+    power: 1.2
+}
+
+research: command-center

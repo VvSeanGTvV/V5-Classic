@@ -1,0 +1,32 @@
+type: UnitFactory
+name: Phantom Factory
+health: 500
+size: 2
+itemCapacity: 30
+
+requirements: [
+            titanium/50
+            lead/65
+            thorium/60
+            silicon/105
+        ]
+
+plans: [
+    {
+        unit: phantom
+        requirements: [
+            titanium/20
+            lead/30
+            silicon/50
+        ]
+        time: 4400
+    }
+]
+
+category: units
+
+consumes: {
+    power: 2.5
+}
+
+research: command-center
