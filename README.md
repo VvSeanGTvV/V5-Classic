@@ -35,5 +35,6 @@ MechPad aren't avaliable yet! I need someone to make a working mechpad in v6!
 Check out the links:
 
 [Official Mindustry Discord](https://discord.gg/aDWth4RCb3)
+[![Discord](https://img.shields.io/discord/782583108473978880.svg?color=7289da&label=Mindustry&logo=discord&style=flat-square)](https://discord.gg/V6ygvgGVqE)
 
 [My YouTube Channel](https://youtube.com/channel/UC-TtlQ6ARi4OmqUYsNVvjjg)
