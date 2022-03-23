@@ -24,8 +24,6 @@ VvSeanGtvV#2295 - Full on revamp Coding to fit in v126 Mindustry
 ---
 ⚠️ WARNING Before using the mod! ⚠️
 
-BuilderAI like Phantom doesnt work properly for no reason :I
-
 The sounds are not there yet, so some its gonna be muted.
 
 This mod is currently in the beta stage!
