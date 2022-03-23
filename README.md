@@ -1,4 +1,5 @@
 ![Logo](sprites-override/logo.png)
+[![Build Status](https://github.com/Anuken/Mindustry/workflows/Tests/badge.svg?event=push)](https://github.com/Anuken/Mindustry/actions)
 ---
 
 Adds v5 units/blocks into the recent version of Mindustry: v126! 
