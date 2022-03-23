@@ -1,6 +1,6 @@
 ![Logo](sprites-override/logo.png)
 [![Build Status](https://github.com/Anuken/Mindustry/workflows/Tests/badge.svg?event=push)](https://github.com/VvSeanGTvV/V5-Classic/actions)
-[![Discord](https://img.shields.io/discord/782583108473978880.svg?color=7289da&label=Mindustry&logo=discord&style=flat-square)](https://discord.gg/aDWth4RCb3)
+[![Discord](https://img.shields.io/discord/391020510269669376.svg?logo=discord&logoColor=white&logoWidth=20&labelColor=7289DA&label=Discord&color=17cf48)](https://discord.gg/mindustry)  
 ---
 
 Adds v5 units/blocks into the recent version of Mindustry: v126! 
