@@ -1,0 +1,15 @@
+type: Wall
+name: Large Insulator Wall
+description: This is an unused block from V5, so there is no special abilities or details about this block.
+
+health: 1520
+
+requirements: [
+  lead/25
+  graphite/10
+]
+size: 2
+solid: true
+category: defense
+research: classicv5-insulator-wall
+

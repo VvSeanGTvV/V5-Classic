@@ -1,0 +1,15 @@
+type: Wall
+name: Insulator Wall
+description: This is an unused block from V5, so there is no special abilities or details about this block.
+
+health: 405
+
+requirements: [
+  lead/10
+  graphite/5
+]
+size: 1
+solid: true
+category: defense
+research: copper-wall
+
