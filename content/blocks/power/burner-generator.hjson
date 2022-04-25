@@ -1,0 +1,17 @@
+name: Turbine Generator V5
+type: BurnerGenerator
+size: 2
+hasLiquids: true
+powerProduction: 6
+itemDuration: 90
+category: power
+research: steam-generator
+consumes: {
+    liquid: water/0.05
+}
+requirements: [
+  copper/35
+  lead/40
+  graphite/25
+  silicon/30
+]
