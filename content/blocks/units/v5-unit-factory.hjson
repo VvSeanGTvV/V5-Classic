@@ -1,0 +1,150 @@
+type: UnitFactory
+name: v5 Recreator Fabricator
+description: Ability to recreate the mech and the unit bosses that arent normally made back in v5!
+health: 7000
+size: 9
+itemCapacity: 100
+
+requirements: [
+            silicon/1000
+            lead/750
+            titanium/550
+            plastanium/300
+        ]
+
+plans: [
+    {
+        unit: Lich
+        requirements: [
+            silicon/700
+            titanium/200
+        ]
+        time: 1500
+    },
+    {
+        unit: Reaper
+        requirements: [
+            silicon/1500
+            titanium/1000
+            graphite/2000
+        ]
+        time: 2300
+    },
+    {
+        unit: eruptor
+        requirements: [
+            silicon/330
+            titanium/200
+            thorium/250
+        ]
+        time: 300
+    },
+    {
+        unit: Eradicator
+        requirements: [
+            silicon/1200
+            titanium/500
+            lead/650
+            graphite/500
+        ]
+        time: 2000
+    },
+    {
+        unit: chaos-array
+        requirements: [
+            silicon/500
+            titanium/200
+            lead/300
+        ]
+        time: 4500
+    },
+    {
+        unit: eruptor
+        requirements: [
+            silicon/700
+            titanium/250
+            graphite/300
+        ]
+        time: 1000
+    },
+    
+    {
+        unit: glaive-ship
+        requirements: [
+            thorium/50
+            titanium/50
+        ]
+        time: 100
+    },
+    {
+        unit: dart-ship
+        requirements: [
+            silicon/10
+            copper/100
+            lead/30
+        ]
+        time: 50
+    },
+    {
+        unit: javelin-ship
+        requirements: [
+            silicon/70
+            titanium/100
+            thorium/50
+        ]
+        time: 300
+    },
+    {
+        unit: trident-ship
+        requirements: [
+            silicon/55
+            titanium/30
+            lead/75
+        ]
+        time: 200
+    },
+    
+    {
+        unit: omega-mech
+        requirements: [
+            silicon/20
+            titanium/50
+        ]
+        time: 130
+    },
+    {
+        unit: dart-ship
+        requirements: [
+            silicon/5
+            copper/10
+            lead/5
+        ]
+        time: 30
+    },
+    {
+        unit: delta-mech
+        requirements: [
+            silicon/30
+            lead/100
+            titanium/10
+        ]
+        time: 130
+    },
+    {
+        unit: tau-mech
+        requirements: [
+            silicon/50
+            lead/100
+            phase-fabric/10
+        ]
+        time: 100
+    }
+]
+
+category: units
+
+consumes: {
+    power: 20
+}
+
+research: tetrative-reconstructor
