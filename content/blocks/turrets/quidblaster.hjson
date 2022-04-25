@@ -1,0 +1,37 @@
+Name: Quid Blaster
+type: LaserTurret
+description: Unused Turret, no much details but designs are similar to like meltdown.
+shootSound: laserbig
+shootDuration: 200
+activeSound: beam
+activeSoundVolume: 2
+reload: 80
+shootCone: 40
+recoil: 4
+shootShake: 2
+coolantMultiplier: 7
+cooldown: 0.003333
+shootType: {
+type: ContinuousLaserBulletType
+        pierce: true
+        damage: 80
+	    lifetime: 16
+        length: 160
+        drawSize: 360
+	    hitEffect: hitMeltdown
+	    frontColor:  ec745855
+	    backColor: ec7458aa
+	}
+
+requirements: [
+    copper/200
+    graphite/250
+    surge-alloy/235
+    silicon/250
+    lead/250
+]
+size: 3
+range: 170
+health: 4000
+category: turret
+research: lancer
