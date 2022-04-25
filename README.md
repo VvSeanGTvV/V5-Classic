@@ -1,11 +1,9 @@
 ![Logo](sprites-override/logo.png)
-[![Build Status](https://github.com/Anuken/Mindustry/workflows/Tests/badge.svg?event=push)](https://github.com/VvSeanGTvV/V5-Classic/actions)
-[![Discord](https://img.shields.io/discord/391020510269669376.svg?logo=discord&logoColor=white&logoWidth=20&labelColor=7289DA&label=Discord&color=17cf48)](https://discord.gg/mindustry)  
----
+Description:
 
-Adds v5 units/blocks into the recent version of Mindustry: v126! 
+Adds v5 units into the recent version of Mindustry: v126! 
 BTW, this mod was made through my Android Mobile,
-I recommended the pre-alpha since some sounds are there the sounds are not avaliable in v126 so some of them are muted.
+I recommended the pre-alpha since the sounds are not avaliable in v126 so some of them are muted.
 This mod is using the v104.6 (v5) version of the Mindustry to able to make this mod,
 and maybe become a v5 user again by this mod.
 
@@ -24,12 +22,8 @@ VvSeanGtvV#2295 - Full on revamp Coding to fit in v126 Mindustry
 ---
 ⚠️ WARNING Before using the mod! ⚠️
 
-The sounds are not there yet, so some its gonna be muted.
-
-This mod is currently in the beta stage!
-So it might have bugs during the gameplay!
-
-MechPad aren't avaliable yet! I need someone to make a working mechpad in v6!
+All of the units/blocks doesnt have the abilities yet like: Javelin-Shield and Omega's Damage Resistance!
+Anyways bye!
 
 ---
 Check out the links:
