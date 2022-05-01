@@ -28,6 +28,8 @@ VvSeanGtvV#2295 - Full on revamp Coding to fit in v126 Mindustry
 All of the units/blocks doesnt have the abilities yet like: Javelin-Shield and Omega's Damage Resistance!
 Anyways bye!
 
+Some v5 Sounds are not imported yet to this mod!
+
 ---
 Check out the links:
 
