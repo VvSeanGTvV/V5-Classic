@@ -1,5 +1,5 @@
 name: Delta
-description: An old V5 Delta Mech.
+description: An old V5 Delta Mech. Shoot lightning cause units to be shocked.
 type: mech
 speed: 0.75
 drag: 0.1
@@ -36,4 +36,4 @@ weapons: [
         }
     }
 ]
-research: command-center
+research: mace

@@ -1,5 +1,5 @@
 name: Omega
-description: An old V5 Mech.
+description: An old V5 Mech. Shoot missile and does splash damage on contact! 
 type: mech
 speed: 0.36
 boostSpeed: 0.6
@@ -50,4 +50,4 @@ weapons: [
         }
     }
 ]
-research: command-center
+research: mace

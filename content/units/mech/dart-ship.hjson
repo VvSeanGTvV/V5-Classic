@@ -1,5 +1,5 @@
 name: Dart
-description: An old V5 starter Dart.
+description: An old V5 starter Dart. The starter ship is now replaced and never seen again.
 type: flying
 mineTier: 1
 speed: 5
@@ -60,4 +60,4 @@ weapons: [
     }
 ]
 
-research: command-center
+research: core-shard
