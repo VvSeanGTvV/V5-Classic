@@ -1,6 +1,6 @@
 name: ClassicV5
 displayName: V5 Reborn
-description: Adds V5 in v126 cotains: Enemies, Unused Blocks, and Maps. Recommended Game Version: 135, since some sounds are not avaliable in v126!
+description: Adds V5 in v137 cotains: Enemies, Unused Blocks, and Maps. Recommended Game Version: 137, since some sounds are not avaliable in v137!
 author: VvSeanGtvV
-version: 1.0 Beta
-minGameVersion: 126
+version: 1.02 Beta
+minGameVersion: 137
