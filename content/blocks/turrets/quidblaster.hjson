@@ -5,7 +5,7 @@ shootSound: laserbig
 shootDuration: 200
 activeSound: beam
 activeSoundVolume: 2
-reload: 80
+reload: 60
 shootCone: 40
 recoil: 4
 shootShake: 2
@@ -35,3 +35,17 @@ range: 170
 health: 4000
 category: turret
 research: lancer
+
+consumes: {
+  liquid: {
+    liquid: cryofluid
+    amount: 0.6
+    optional: true
+    booster: true
+
+    liquid: water
+    amount: 0.2
+    optional: true
+    booster: true
+  }
+}
