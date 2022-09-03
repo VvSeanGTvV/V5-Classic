@@ -1,21 +1,21 @@
 ![Logo](sprites-override/logo.png)
 
-Testing: Unknown
+Testing: Passed in V7 :)
 
 Description:
 
-Adds v5 units into the recent version of Mindustry: v126! 
+Adds v5 units into the recent version of Mindustry: v137! 
 BTW, this mod was made through my Android Mobile,
-I recommended the pre-alpha since the sounds are not avaliable in v126 so some of them are muted.
+I recommended the pre-alpha since the sounds are not avaliable in v137 so some of them are muted.
 This mod is using the v104.6 (v5) version of the Mindustry to able to make this mod,
 and maybe become a v5 user again by this mod.
 
 ---
 Status:
-#### Current Version of the mod: v1.0 Beta
+#### Current Version of the mod: v1.02 Beta (V7 support)
 ---
 Game Version:
-#### Recommended Game Version: v135 (pre-alpha)
+#### Recommended Game Version: v137 (alpha)
 #### Minimum Game Version: v126 (stable)
 ---
 Creators:
