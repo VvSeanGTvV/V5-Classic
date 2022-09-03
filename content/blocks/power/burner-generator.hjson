@@ -1,5 +1,5 @@
 name: Turbine Generator V5
-type: BurnerGenerator
+type: ConsumeGenerator
 size: 2
 hasLiquids: true
 powerProduction: 6
@@ -15,3 +15,21 @@ requirements: [
   graphite/25
   silicon/30
 ]
+
+drawer: {
+	type: DrawMulti,
+	drawers: [
+		{
+			type: DrawDefault
+		},
+		{
+			type: DrawWarmupRegion
+			suffix: -top
+		},
+		{
+			type: DrawLiquidRegion,
+			suffix: -liquid,
+			drawLiquid: water
+		}
+	]
+}
