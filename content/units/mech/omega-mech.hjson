@@ -17,13 +17,16 @@ weapons: [
     {
         name: swarmer-equip
         reload: 38
-        shootX: 6
+        shootX: -6
         x: -1
         y: 0
         top: false
         recoil: 4
-        shots: 4
-        shotDelay: 0
+        shoot: {
+		type: shootPattern,
+        	shots: 4,
+        	shotDelay: 0
+	}
         mirror: true
         ejectEffect: casing2
         shootSound: shootBig

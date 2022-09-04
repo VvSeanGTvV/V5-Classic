@@ -35,10 +35,13 @@ weapons: [
         firstShotDelay: 0
 
         reload: 25
-        recoil: 0
+        recoil: -1
         shots: 2
-        shotDelay: 1
-        shots: 8
+	shoot: {
+		type: shootPattern,
+        	shots: 8,
+        	shotDelay: 1
+	}
         inaccuracy: 20
         shootSound: artillery
         continuous: false

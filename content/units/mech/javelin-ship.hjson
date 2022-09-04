@@ -36,7 +36,10 @@ weapons: [
 
         reload: 70
         recoil: 0
-        shots: 4
+        shoot: {
+		type: shootPattern,
+        	shots: 4
+	}
         shootSound: missile
         continuous: false
         cooldownTime: 200
