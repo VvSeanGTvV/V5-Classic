@@ -12,7 +12,7 @@ and maybe become a v5 user again by this mod.
 
 ---
 Status:
-#### Current Version of the mod: v1.02 Beta (V7 support)
+#### Current Version of the mod: v1.022 Beta (V7 support)
 ---
 Game Version:
 #### Recommended Game Version: v137 (alpha)
