@@ -16,6 +16,7 @@ engineSize: 2
 payloadCapacity: 1000
 buildSpeed: 0
 destructibleWreck: false
+controller: FlareAI
 
 weapons: [
     {
@@ -32,7 +33,6 @@ weapons: [
         firstShotDelay: 0
 
         reload: 10
-        recoil: 0
         shootSound: shoot
         continuous: false
         cooldownTime: 200

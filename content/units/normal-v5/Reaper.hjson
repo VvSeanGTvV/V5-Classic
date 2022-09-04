@@ -20,7 +20,7 @@ destructibleWreck: false
 weapons: [
     {
         name: spectre-gun
-        rotateSpeed: 0.01
+        rotateSpeed: 0.03
         rotate: true
         mirror: true
         top: false

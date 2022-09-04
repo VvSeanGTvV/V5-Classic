@@ -36,8 +36,11 @@ weapons: [
         reload: 25
         recoil: 0
         shots: 2
-        shotDelay: 1
-        shots: 8
+	shoot: {
+		type: shootPattern,
+        	shots: 8,
+        	shotDelay: 1
+	}
         inaccuracy: 40
         shootSound: none
         continuous: false

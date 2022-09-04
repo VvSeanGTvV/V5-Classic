@@ -20,7 +20,7 @@ destructibleWreck: false
 weapons: [
     {
         name: missile-gun
-        rotateSpeed: 0.01
+        rotateSpeed: 0.03
         rotate: true
         mirror: true
         top: false
@@ -36,8 +36,11 @@ weapons: [
         shootSound: artillery
         continuous: false
         cooldownTime: 200
-        shots: 16
-        shotDelay: 2
+	shoot: {
+		type: shootPattern,
+        	shots: 16,
+        	shotDelay: 2
+	}
         inaccuracy: 10
 
         bullet: {

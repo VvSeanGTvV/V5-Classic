@@ -36,7 +36,10 @@ weapons: [
         shootSound: missile
         continuous: false
         cooldownTime: 200
-        shots: 2
+	shoot: {
+		type: shootPattern,
+        	shots: 2
+	}
 
         bullet: {
             type: MissileBulletType
