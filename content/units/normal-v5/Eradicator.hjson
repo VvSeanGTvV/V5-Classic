@@ -11,7 +11,7 @@ weapons: [
     {
         name: heavy-gun
         reload: 30
-        x: 20
+        x: 21
         y: 0
         top: false
         shake: 2
