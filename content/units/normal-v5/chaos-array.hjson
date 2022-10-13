@@ -16,8 +16,11 @@ weapons: [
         top: false
         shake: 2
         recoil: 3
-        shots: 4
-        shotDelay: 5
+	shoot: {
+		type: shootPattern,
+        	shots: 4,
+        	shotDelay: 5
+	}
         mirror: true
         ejectEffect: casing2
         shootSound: shootBig

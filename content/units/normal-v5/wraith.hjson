@@ -1,4 +1,4 @@
-name: Wraith Fighter
+name: Wraith
 description: An old V5 Annoying Wraith Fighter replaced with Flare.
 type: flying
 mineTier: 0
@@ -16,7 +16,7 @@ engineSize: 2
 payloadCapacity: 1000
 buildSpeed: 0
 destructibleWreck: false
-controller: FlareAI
+circleTarget: true
 
 weapons: [
     {
@@ -51,9 +51,6 @@ weapons: [
             shootEffect: shootSmall
             smokeEffect: shootSmallSmoke
         }
-
-        shootStatus: slow
-        shootStatusDuration: 180
     }
 ]
 

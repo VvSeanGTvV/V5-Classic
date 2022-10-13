@@ -58,12 +58,10 @@ weapons: [
             shootEffect: shootSmall
             smokeEffect: shootSmallSmoke
             homingRange: 60
+	    homingPower: 0.03
             weaveScale: 6
             weaveMag: 1
         }
-
-        shootStatus: slow
-        shootStatusDuration: 180
     }
 ]
 

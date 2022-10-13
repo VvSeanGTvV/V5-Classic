@@ -54,8 +54,6 @@ weapons: [
             smokeEffect: shootSmallSmoke
         }
 
-        shootStatus: slow
-        shootStatusDuration: 180
     }
 ]
 

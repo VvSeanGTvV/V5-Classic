@@ -6,7 +6,7 @@ speed: 0.6
 health: 6000
 armor: 0
 accel: 0.01
-drag: 0.02
+drag: 0.0
 lowAltitude: true
 flying: true
 engineOffset: 21
@@ -20,7 +20,7 @@ destructibleWreck: false
 weapons: [
     {
         name: missile-gun
-        rotateSpeed: 0.03
+        rotateSpeed: 2
         rotate: true
         mirror: true
         top: false
@@ -60,12 +60,10 @@ weapons: [
             shootEffect: shootSmall
             smokeEffect: shootSmallSmoke
             homingRange: 60
+	    homingPower: 0.01
             weaveScale: 6
             weaveMag: 1
         }
-
-        shootStatus: slow
-        shootStatusDuration: 180
     }
 ]
 
