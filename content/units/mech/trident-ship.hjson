@@ -29,14 +29,12 @@ weapons: [
         top: false
         shake: 1
         shootY: 0
-        x: 3
+        x: 0
         y: 0
 
         firstShotDelay: 0
 
-        reload: 25
-        recoil: -1
-        shots: 2
+        reload: 13
 	shoot: {
 		type: shootPattern,
         	shots: 8,
@@ -48,7 +46,7 @@ weapons: [
         cooldownTime: 200
         ejectEffect: casing1
 
-        bullet: {
+    bullet: {
       type: BombBulletType
       splashDamageRadius: 25
       damage: 16
@@ -62,9 +60,6 @@ weapons: [
       incendAmount: 2
       incendSpread: 3
     }
-
-        shootStatus: slow
-        shootStatusDuration: 180
     }
 ]
 

@@ -2,7 +2,7 @@ name: Javelin
 description: An old V5 Javelin.
 type: flying
 mineTier: 1
-speed: 1.1
+speed: 6
 health: 170
 armor: 0
 accel: 0.1
@@ -34,7 +34,7 @@ weapons: [
 
         firstShotDelay: 0
 
-        reload: 70
+        reload: 50
         recoil: 0
         shoot: {
 		type: shootPattern,
@@ -62,12 +62,10 @@ weapons: [
             lifetime: 90
             shootEffect: shootSmall
             smokeEffect: shootSmallSmoke
+	    homingPower: 0.03
             weaveScale: 8
             weaveMag: 2
         }
-
-        shootStatus: slow
-        shootStatusDuration: 180
     }
 ]
 
