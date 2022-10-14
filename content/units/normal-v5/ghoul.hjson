@@ -9,6 +9,7 @@ accel: 0.2
 drag: 0.01
 lowAltitude: true
 flying: true
+targetAir: false
 engineOffset: 7.8
 targetAir: false
 rotateShooting: true
@@ -17,7 +18,7 @@ engineSize: 2
 buildSpeed: 0
 payloadCapacity: 1000
 destructibleWreck: false
-range: 1
+range: 140
 
 weapons: [
     {
@@ -31,14 +32,12 @@ weapons: [
         x: 0
         y: 0
 
-        firstShotDelay: 0
-
-        reload: 25
+        reload: 12
         recoil: 0
         shots: 2
 	shoot: {
 		type: shootPattern,
-        	shots: 8,
+        	shots: 2,
         	shotDelay: 1
 	}
         inaccuracy: 40
