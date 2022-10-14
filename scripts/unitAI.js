@@ -45,3 +45,24 @@ const FlareAI = () => { //This is similar to Flare/Wraith AI from V5 or V6
     });
 }
 exports.FlareAI = FlareAI;
+
+
+
+const BomberAI = () => { //This is similar to Flare/Wraith AI from V5 or V6 just modified :I
+    return extend(AIController, {
+        updateMovement(){
+            var core = this.unit.closestEnemyCore();
+            if(this.target != null){
+                if(this.unit.type.circleTarget){ //If CircleTarget = true in Unit
+                    this.circleAttack(100); //Do the circle target.
+                }
+                if(!this.unit.within(this.target, this.unit.type.range * 0.5)){
+                    this.moveTo(this.target, this.unit.type.range * 0.5); //move towards the enemy
+                }
+            } else if(this.target == null && core != null) {
+                this.moveTo(core, 0);
+            }
+        },
+    });
+}
+exports.BomberAI = BomberAI;
