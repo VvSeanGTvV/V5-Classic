@@ -13,10 +13,10 @@ and maybe become a v5 user again by this mod.
 ---
 Status:
 #### Release Current Version of the mod: v1.022 Beta (V7 support)
-#### Pre-Release Current Version of the mod: v1.066 Beta (V1.1 Mod Preview)
+#### Pre-Release Current Version of the mod: v1.07 Beta (Snek moment)
 ---
 Game Version:
-#### Recommended Game Version: v137 (alpha)
+#### Recommended Game Version: v139 (beta)
 #### Minimum Game Version: v126 (stable)
 ---
 Creators:
