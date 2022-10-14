@@ -7,7 +7,7 @@ const IgnoreDefenseAI = () => { //This is similar to Lich AI from V5
                 this.unit.aim(this.target); //aim the weapon at target while moving towards the core.
             }
             if(core != null && !this.unit.within(core, this.unit.type.range * 0.5)){
-                pathfind(Pathfinder.fieldCore); //Scuffed flanking mechanics lolz.
+                this.pathfind(Pathfinder.fieldCore); //Scuffed flanking mechanics lolz.
                 //this.moveTo(core, this.unit.type.range * 0.5); //Follow to the Enemy Core.
                 this.unit.lookAt(core);
             }
