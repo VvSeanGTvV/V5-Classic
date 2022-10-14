@@ -25,6 +25,12 @@ const flarew = extend(UnitType, "wraith", {
 flarew.constructor = () => extend(UnitEntity, {});
 flarew.controller = AI.FlareAI;
 flarew.circleTarget = true; //Old CircleTarget use the new one from AIController.
+
+const bomberplane = extend(UnitType, "ghoul", {
+});
+bomberplane.constructor = () => extend(UnitEntity, {});
+bomberplane.controller = AI.BomberAI; //Just same with FlareAI but with some modifications :)
+bomberplane.circleTarget = true; //Old CircleTarget use the new one from AIController.
 // --- Units Region End ---
 
 // --- Dialog ---
