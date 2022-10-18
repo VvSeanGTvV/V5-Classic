@@ -1,10 +1,10 @@
 name: ClassicV5
 displayName: V5 Reborn
 subtitle: '''
-Preview 1.07 Beta
+Preview 1.072 Beta
 '''
 description: '''
-Current Version: [sky]Preview[] 1.07 Beta
+Current Version: [sky]Preview[] 1.072 Beta
 Adds V5 in v138 cotains: Enemies, Unused Blocks, and Maps. Recommended Game Version: 138.
 [accent]Mod Future Update:[]
  - v5 Units         (Finished)
@@ -19,5 +19,5 @@ Adds V5 in v138 cotains: Enemies, Unused Blocks, and Maps. Recommended Game Vers
  - Snek           (Finished)
 '''
 author: VvSeanGtvV
-version: 1.07 Beta
+version: 1.072 Beta
 minGameVersion: 138
