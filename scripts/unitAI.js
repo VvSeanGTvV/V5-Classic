@@ -22,8 +22,6 @@ const IgnoreDefenseAI = () => { //This is similar to Lich AI from V5
 }
 exports.IgnoreDefenseAI = IgnoreDefenseAI;
 
-
-
 const FlareAI = () => { //This is similar to Flare/Wraith AI from V5 or V6
     return extend(AIController, {
         updateMovement(){
@@ -46,13 +44,12 @@ const FlareAI = () => { //This is similar to Flare/Wraith AI from V5 or V6
 }
 exports.FlareAI = FlareAI;
 
-
-
-const BomberAI = () => { //This is similar to Flare/Wraith AI from V5 or V6 just modified :I
+const BomberAI = () => { //This is similar to Flare/Wraith AI from V5 or V6
     return extend(AIController, {
         updateMovement(){
             var core = this.unit.closestEnemyCore();
             if(this.target != null){
+                this.unit.lookAt(this.target);
                 if(this.unit.type.circleTarget){ //If CircleTarget = true in Unit
                     this.circleAttack(100); //Do the circle target.
                 }
@@ -60,7 +57,7 @@ const BomberAI = () => { //This is similar to Flare/Wraith AI from V5 or V6 just
                     this.moveTo(this.target, this.unit.type.range * 0.5); //move towards the enemy
                 }
             } else if(this.target == null && core != null) {
-                this.moveTo(core, 0);
+                this.moveTo(core, 0); //Vars.state.rules.dropZoneRadius + 120); //if no block exist target nearest enemy block
             }
         },
     });
