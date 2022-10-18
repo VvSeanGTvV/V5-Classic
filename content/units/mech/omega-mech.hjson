@@ -1,7 +1,7 @@
 name: Omega
 description: An old V5 Mech. Shoot missile and does splash damage on contact! 
 type: mech
-speed: 0.36
+speed: 0.76
 boostSpeed: 0.6
 drag: 0.1
 health: 350
@@ -13,15 +13,19 @@ mineSpeed: 1.5
 mineTier: 2
 buildSpeed: 1.5
 itemCapacity: 80
+canBoost: true
+engineColor: feb380
+
 weapons: [
     {
         name: swarmer-equip
-        reload: 38
+        reload: 20
         shootX: -6
-        x: -1
+        x: -1.07
         y: 0
         top: false
         recoil: 4
+        shake: 3
         shoot: {
 		type: shootPattern,
         	shots: 4,
@@ -48,6 +52,7 @@ weapons: [
             shootEffect: shootSmall
             smokeEffect: shootSmallSmoke
             homingRange: 60
+            homingPower: 0.03
             weaveScale: 8
             weaveMag: 2
         }

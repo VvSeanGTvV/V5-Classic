@@ -59,6 +59,7 @@ weapons: [
       backColor: f68021
       incendAmount: 2
       incendSpread: 3
+      incendiary: false
     }
     }
 ]

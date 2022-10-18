@@ -1,20 +1,24 @@
 name: Delta
 description: An old V5 Delta Mech. Shoot lightning cause units to be shocked.
 type: mech
-speed: 0.75
+speed: 2
+BoostSpeed: 0.95
 drag: 0.1
 health: 150
 range: 80
 hitSize: 8
 rotateSpeed: 10
 mineSpeed: 1.5
-mineTier: 1
-buildSpeed: 1.2
+mineTier: 0
+buildSpeed: 0.9
 itemCapacity: 40
+canBoost: true
+engineColor: d3ddff
+
 weapons: [
     {
         name: shockgun-equip
-        reload: 55
+        reload: 20
         shootX: -4
         x: 1
         y: 0
@@ -22,9 +26,9 @@ weapons: [
         recoil: 1
 	shoot: {
 		type: shootPattern,
-        	shotDelay: 3,
         	shots: 2
 	}
+        shake: 2
         mirror: true
         ejectEffect: casing1
         shootSound: spark
@@ -35,7 +39,7 @@ weapons: [
             lifetime: 1
             damage: 12
             range: 40
-            lightningLength: 10
+            lightningLength: 30
         }
     }
 ]
