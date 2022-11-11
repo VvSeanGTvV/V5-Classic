@@ -31,9 +31,13 @@ Anyways bye!
 
 Some v5 Sounds are not imported yet to this mod!
 
+This mod is not gonna be updated anymore! go to the new mod i hav released!
+
 ---
 Check out the links:
 
 [Official Mindustry Discord](https://discord.gg/aDWth4RCb3)
+
+[New v5 Mod](https://github.com/VvSeanGTvV/V5-Reborn-Java)
 
 [My YouTube Channel](https://youtube.com/channel/UC-TtlQ6ARi4OmqUYsNVvjjg)
